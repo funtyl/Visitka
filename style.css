@@ -134,3 +134,34 @@ footer {
     justify-content: center;
     color: white;
 }
+
+#cat {
+    min-height: 100vh;
+    padding: 0em 1em;
+    background-color: #80234e;
+}
+
+.cat_container {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    border-radius: 2em;
+    align-items: center;
+}
+
+.cat_picture {
+    width: 70%;
+    padding-left: 2em;
+}
+
+.cat_text {
+    width: 30%;
+    margin-right: 2em;
+}
+
+.cat_picture img {
+    width: 80%;
+    height: 80%;
+    border-radius: 2em;
+}
